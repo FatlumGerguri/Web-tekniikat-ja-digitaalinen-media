@@ -1,0 +1,120 @@
+
+.language{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lang-content .lcmd{
+    width: 100%;
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+}
+
+.lang-content .lcmd .ltext{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    padding: 5% 5% 5% 5%;
+    background: #f6f6f6;
+}
+.lang-content img{
+    width: 50%;
+}
+
+/* --------------------------------------
+    Style:  Rensponsive media query
+-------------------------------------- */
+@media (max-width: 947px){
+    .lang-content .lcmd{
+        width: 100%;
+        padding: 0 5% 5% 5%;
+    }
+
+}
+/* --------------------------------------
+    Media query for screens resolution till to 690px
+-------------------------------------- */
+@media (max-width: 690px) {
+    .lang-content .cmd{
+        width: 100%;
+        padding: 0 5% 5% 5%;
+    }
+    .lang-content .lcmd .ltext{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+    }
+    .language .title{
+        position: relative;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .language .title::before{
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: 30%;
+        width: 280px;
+        height: 3px;
+        background: #29b2fe;;
+        transform: translateX(-63%);
+    }
+    .language .title::after{
+        position: absolute;
+        bottom: -8px;
+        left: 30%;
+        padding: 0 5px;
+        background: #f6f6f6;
+        transform: translateX(-63%);
+    }
+}
+
+/* --------------------------------------
+    Media query for screens resolution till to 500px
+-------------------------------------- */
+@media (max-width: 500px) {
+    .lang-content .cmd{
+        width: 100%;
+    }
+
+    .lang-content .lcmd .ltext{
+        font-size: 15px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .language .title{
+        position: relative;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .language .title::before{
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: 30%;
+        width: 280px;
+        height: 3px;
+        background: #29b2fe;;
+        transform: translateX(-63%);
+    }
+    .language .title::after{
+        position: absolute;
+        bottom: -8px;
+        left: 30%;
+        padding: 0 5px;
+        background: #f6f6f6;
+        transform: translateX(-63%);
+    }
+}

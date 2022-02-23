@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front end Ohjelmat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fontawesome/all.css"/>
+    <script src="js/jquery-3.5.1.min..js"></script>
+    <script src="js/typed.min.js"></script>
+
+
+</head>
+<body>
+    <!-- Tässä ilmoitetaan Scroll-up painike-->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <!-- Tässä ilmoitetaan Menu Iso-Pienelle näytölle-->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo-text"><a href="index.html">Front<span>-end Ohjel</span>mat</a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Etusivu</a></li>
+                <li><a href="#about" class="menu-btn">Meistä</a></li>
+                <li><a href="#ohjelmat" class="menu-btn">Ohjelmat</a></li>
+                <li><a href="The%20Map/Map.html" class="menu-btn" target="_blank">Kartta</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section/osio -->
+    <header class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Ryhmä <span>3</span></div>
+                <div class="text-2"><span class="typing">Fatlum Gerguri<br> Hussein Al-Bayati</span></div>
+                <div class="text-2"><span class="typing2">Front-end Ohjelmat</span></div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- Tässä ilmoitetaan ohjelmointikielet -osio-->
+    <section class="ohjelmat" id="ohjelmat">
+        <div class="max-width">
+            <h2 class="title">Front-end ohjelmointikielet</h2>
+            <div class="serv-content">
+                <div class="card" onclick="window.location.href='html-ohjelma.html'">
+                    <div class="box">
+                        <i class="fab fa-html5"></i>
+                        <div class="text">HTML</div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                    </div>
+                </div>
+                <div class="card" onclick="window.location.href='ohjelmacss.html'">
+                    <div class="box">
+                        <i class="fab fa-css3-alt"></i>
+                        <div class="text">CSS</div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                    </div>
+                </div>
+                <div class="card" onclick="window.location.href='ohjelmaJS.html'">
+                    <div class="box" >
+                        <i class="fab fa-js"></i>
+                        <div class="text">JavaScript</div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tässä ilmoitetaan video -osio -->
+    <hr>
+<section class="video">
+    <div class="max-width">
+            <div class="video-content">
+                <div class="cmd ">
+                    <br><br>
+                    <video width="100%" controls >
+                        <source src="Video/videoProjekt.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+                </div>
+                <div class="cmd">
+                    <h2 class="title">Videon kuvaus</h2>
+                    <div class="text">Simple school day</div>
+                    <p class="text">A day to day life of Information and Communications Technology</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Tässä ilmoitetaan Meistä ryhmästä-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Meistä</h2>
+                <div class="about-content">
+                    <div class="column">
+                        <div class="text"><spa id="text-t">Ryhmä 3:</spa><br> <span> Fatlum Gerguri & Hussein Al-Bayati</span></div><br>
+                        <p class="tag-text">Pääaihe on: Ohjelmointikielet - front end perusteet
+                            Ideo on sitä, että esitetään HTML, CSS ja JavaScript, perusteet sivulle, jossa näkyy miten näistä kielet toimivat ja mihin pystymme käyttää.
+                            Projektissa essittelän myös videoita, kuvia, karttaa sekä pientä koodia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Tässä ilmoitetaan footer -osio.  -->
+    <footer>
+        <span> <a href="#home">Ryhmä 3</a> | <span class="far fa-copyright"></span> 2021 </span>
+    </footer>
+    <!-- Tässä ilmoitetaan että missä tarvittavat js-koodit sijaitsevat.  -->
+    <script src="js/mainscript.js"></script>
+</body>
+</html>
